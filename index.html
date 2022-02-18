@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather app</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+        <script src="./main.js" defer></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <main>
+
+                <div class="search-city_container">
+                    <input id="city-name" type="text" placeholder="Search" autocomplete="off">
+                    <button id="search-btn"><i class="bi bi-search"></i></button>
+                </div>
+    
+                <div class="city-date">
+                    <h2>Cidade, País</h2>
+                    <p>Quarta, 17 Fevereiro 2022</p>
+                </div>
+    
+                <div class="temp-city">
+                    <h1>27°c</h1>
+                </div>
+    
+                <div class="status-weather">
+
+                    <div class="weather-city">
+                        <img id="icon-weather" src="" >
+                        <p id="weather-el">Nuvens Dispersas</p>
+                    </div>
+ 
+
+                    <div class="info-weather-city">
+                        <p id="humidity-el">Humidade: 66%</p>
+                        <p id="wind-el">Vento: 3.6 km/h</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="loading-el">
+                    <h1>Loading...</h1>
+                </div>
+
+            </main>
+
+            <footer><p>COPYRIGHT © AndersonBones - 2021</p></footer>
+        </div>
+        
+        
+    </body>
+</html>
