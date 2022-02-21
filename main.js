@@ -60,7 +60,7 @@ function Your_Coordinate(latitude, longitude){
 }
 
 city_name_input.addEventListener('keypress',(event)=>{
-    if(event.key == 'Enter'){
+    if(event.keyCode == 13){ /* Enter press */
         getData(`${Weather.URL_BASE}q=${city_name_input.value}&${Weather.API_KEY}&${Weather.URL_LANG}&${Weather.URL_UNITS}`);
         loading_el.style.animation = '';
     }
