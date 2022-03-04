@@ -101,4 +101,5 @@ function Set_Date(date){
 
 function Loading_Animation(){
     loading_el.style.animation = 'loadAnima2 1s both';
+    return this;
 }
